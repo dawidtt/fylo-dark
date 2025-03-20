@@ -8,3 +8,16 @@ body {
   --font-open-sans: "Open Sans", sans-serif;
   --font-raleway: "Raleway", sans-serif;
 }
+@layer components {
+  .gradient {
+    background: rgb(101, 226, 217);
+    background: linear-gradient(
+      84deg,
+      rgba(101, 226, 217, 1) 7%,
+      rgba(51, 158, 204, 1) 90%
+    );
+  }
+  .gradient:hover {
+    background: rgba(101, 226, 217, 1);
+  }
+}
