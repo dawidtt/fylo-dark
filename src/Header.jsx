@@ -15,11 +15,15 @@ function Header() {
         </svg>
       </div>
       <div className="flex gap-4 text-white text-sm">
-        <a className="" href="#">
+        <a className="flex items-center" href="#">
           Features
         </a>
-        <a href="#">Team</a>
-        <a href="#">Sign In</a>
+        <a className="flex items-center" href="#">
+          Team
+        </a>
+        <a className="flex items-center" href="#">
+          Sign In
+        </a>
       </div>
     </header>
   );
