@@ -7,7 +7,7 @@ function Hero() {
         src="../src/assets/illustration-intro.png"
         alt="sa"
       />
-      <h2 className="text-2xl font-bold">
+      <h2 className="text-2xl font-bold font-raleway">
         All your files in one secure location, accessible anywhere.
       </h2>
       <p className="my-7 text-sm">

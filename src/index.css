@@ -16,8 +16,7 @@ body {
       rgba(101, 226, 217, 1) 7%,
       rgba(51, 158, 204, 1) 90%
     );
-  }
-  .gradient:hover {
-    background: rgba(101, 226, 217, 1);
+    will-change: scale;
+    transition: scale 0.15s ease;
   }
 }
