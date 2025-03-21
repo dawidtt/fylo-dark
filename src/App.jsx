@@ -1,6 +1,7 @@
 import Header from "./Header";
 import Hero from "./Hero";
 import BenefitCard from "./BenefitCard";
+import StayProductive from "./StayProductive";
 function App() {
   return (
     <div className="font-open-sans">
@@ -32,6 +33,7 @@ function App() {
                 file types to be securely stored and shared."
         ></BenefitCard>
       </div>
+      <StayProductive></StayProductive>
     </div>
   );
 }
