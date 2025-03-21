@@ -1,7 +1,11 @@
 function StayProductive() {
   return (
-    <div className="text-white my-20">
-      <img src="./src/assets/illustration-stay-productive.png" alt="" />
+    <div className="text-white my-36 p-2">
+      <img
+        className="mx-auto w-[80%]"
+        src="./src/assets/illustration-stay-productive.png"
+        alt=""
+      />
       <div className="mt-6 p-6">
         <h3 className="font-bold text-xl">Stay productive, wherever you are</h3>
         <p className="mt-6 mb-4">
