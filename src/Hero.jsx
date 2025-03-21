@@ -10,7 +10,7 @@ function Hero() {
       <h2 className="text-2xl font-bold font-raleway">
         All your files in one secure location, accessible anywhere.
       </h2>
-      <p className="my-7 text-sm">
+      <p className="my-7 ">
         Fylo stores all your most important files in one secure location. Access
         them wherever you need, share and collaborate with friends family, and
         co-workers.
