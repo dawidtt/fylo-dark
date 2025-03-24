@@ -3,6 +3,7 @@ import Hero from "./Hero";
 import BenefitCard from "./BenefitCard";
 import StayProductive from "./StayProductive";
 import Testimonial from "./Testimonial";
+import Footer from "./Footer";
 const testimonials = [
   {
     text: "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine",
@@ -63,6 +64,7 @@ function App() {
         />
         {testimonials.map((testimonial) => (
           <Testimonial
+            key={crypto.randomUUID()}
             text={testimonial.text}
             img={testimonial.img}
             name={testimonial.name}
@@ -70,6 +72,7 @@ function App() {
           />
         ))}
       </div>
+      <Footer></Footer>
     </div>
   );
 }
