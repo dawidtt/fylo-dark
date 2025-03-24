@@ -2,6 +2,27 @@ import Header from "./Header";
 import Hero from "./Hero";
 import BenefitCard from "./BenefitCard";
 import StayProductive from "./StayProductive";
+import Testimonial from "./Testimonial";
+const testimonials = [
+  {
+    text: "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine",
+    img: "./src/assets/profile-1.jpg",
+    name: "Satish Patel",
+    position: "Founder & CEO, Huddle",
+  },
+  {
+    text: "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
+    img: "./src/assets/profile-2.jpg",
+    name: " Bruce McKenzie",
+    position: "Founder & CEO, Huddle",
+  },
+  {
+    text: "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine",
+    img: "./src/assets/profile-3.jpg",
+    name: "Iva Boydl",
+    position: "Founder & CEO, Huddle",
+  },
+];
 function App() {
   return (
     <div className="font-open-sans">
@@ -34,6 +55,21 @@ function App() {
         ></BenefitCard>
       </div>
       <StayProductive></StayProductive>
+      <div className="my-8 mx-12">
+        <img
+          className="ml-4 w-[30px]"
+          src="./src/assets/bg-quotes.png"
+          alt=""
+        />
+        {testimonials.map((testimonial) => (
+          <Testimonial
+            text={testimonial.text}
+            img={testimonial.img}
+            name={testimonial.name}
+            position={testimonial.position}
+          />
+        ))}
+      </div>
     </div>
   );
 }
