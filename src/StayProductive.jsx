@@ -21,7 +21,7 @@ function StayProductive() {
         </p>
         <a
           href="#"
-          className="flex gap-4 items-center text-[#65e2d9]  border-b-2 w-fit border-[#65e2d9] pb-1"
+          className="group flex gap-4 items-center text-[#65e2d9]  border-b-2 w-fit border-[#65e2d9] pb-1 hover:text-white hover:border-white"
         >
           <span>See how Fylo works</span>
           <svg
@@ -55,7 +55,11 @@ function StayProductive() {
             <g fill="none" fillRule="evenodd">
               <g transform="translate(2 2)">
                 <use fill="#000" filter="url(#a)" xlinkHref="#b" />
-                <use fill="#62E0D9" xlinkHref="#b" />
+                <use
+                  className="group-hover:fill-white"
+                  fill="#62E0D9"
+                  xlinkHref="#b"
+                />
               </g>
               <path
                 d="M8.582 6l-.363.35 1.452 1.4H5.333v.5h4.338L8.22 9.65l.363.35 2.074-2z"
