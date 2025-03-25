@@ -36,7 +36,7 @@ function GetAccess() {
         ></BlueButton>
       </form>
       {invalid && (
-        <span className="absolute top-[88%] left-[10%] text-left text-[#ff4242] font-bold text-sm">
+        <span className="text-xs absolute  top-[94%] sm:top-[92%] md:top-[88%] left-[10%] text-left text-[#ff4242] font-bold md:text-sm">
           Please enter a valid email address
         </span>
       )}
