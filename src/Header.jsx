@@ -13,7 +13,7 @@ function Header() {
           </g>
         </svg>
       </div>
-      <div className="flex gap-4 text-white text-sm md:text-lg md:gap-18">
+      <div className="font-[Raleway] flex gap-4 text-white text-sm md:text-lg md:gap-18">
         <a className="flex items-center" href="#">
           Features
         </a>

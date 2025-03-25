@@ -26,7 +26,7 @@ const testimonials = [
 ];
 function App() {
   return (
-    <div className="font-open-sans bg-[url(./src/assets/bg-curvy-desktop.svg)] ">
+    <div className="font-[Open Sans] bg-[url(./src/assets/bg-curvy-desktop.svg)] ">
       <Header></Header>
       <Hero></Hero>
       <div className="my-18 md:grid md:grid-cols-2 max-w-[1000px] md:mx-auto md:gap-22">
