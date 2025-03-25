@@ -1,18 +1,21 @@
 function StayProductive() {
   return (
-    <div className="text-white my-36 p-2">
+    <div className="text-white my-36 p-2 md:flex md:items-center md:w-[80vw] md:mx-auto">
       <img
-        className="mx-auto w-[80%]"
+        className="mx-auto w-[80%] md:w-[50%]"
         src="./src/assets/illustration-stay-productive.png"
         alt=""
       />
       <div className="mt-6 p-6">
-        <h3 className="font-bold text-xl">Stay productive, wherever you are</h3>
-        <p className="mt-6 mb-4">
+        <h3 className="font-bold text-xl md:text-4xl">
+          Stay productive,
+          <br /> wherever you are
+        </h3>
+        <p className="mt-6 mb-4 md:text-lg">
           Never let location be an issue when accessing your files. Fylo has you
           covered for all of your file storage needs.
         </p>
-        <p className="mb-4">
+        <p className="mb-4 md:text-lg">
           Securely share files and folders with friends, family and colleagues
           for live collaboration. No email attachments required.
         </p>

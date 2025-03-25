@@ -26,10 +26,10 @@ const testimonials = [
 ];
 function App() {
   return (
-    <div className="font-open-sans">
+    <div className="font-open-sans bg-[url(./src/assets/bg-curvy-desktop.svg)] ">
       <Header></Header>
       <Hero></Hero>
-      <div className="my-18">
+      <div className="my-18 md:grid md:grid-cols-2 max-w-[1000px] md:mx-auto md:gap-22">
         <BenefitCard
           img="./src/assets/icon-access-anywhere.svg"
           title="Access your files, anywhere"
@@ -56,22 +56,25 @@ function App() {
         ></BenefitCard>
       </div>
       <StayProductive></StayProductive>
-      <div className="my-8 mx-12">
-        <img
-          className="ml-4 w-[30px]"
-          src="./src/assets/bg-quotes.png"
-          alt=""
-        />
-        {testimonials.map((testimonial) => (
-          <Testimonial
-            key={crypto.randomUUID()}
-            text={testimonial.text}
-            img={testimonial.img}
-            name={testimonial.name}
-            position={testimonial.position}
+      <div className="flex justify-center ">
+        <div className="my-8 mx-12  md:flex md:justify-between md:gap-8 md:relative md:x-20 max-w-[1450px] 2xl:mx-auto">
+          <img
+            className="ml-4 w-[60px] md:absolute md:top-[-40px] md:left-[-35px] md:z-[-1]"
+            src="./src/assets/bg-quotes.png"
+            alt=""
           />
-        ))}
+          {testimonials.map((testimonial) => (
+            <Testimonial
+              key={crypto.randomUUID()}
+              text={testimonial.text}
+              img={testimonial.img}
+              name={testimonial.name}
+              position={testimonial.position}
+            />
+          ))}
+        </div>
       </div>
+
       <Footer></Footer>
     </div>
   );

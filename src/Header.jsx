@@ -1,9 +1,9 @@
 function Header() {
   return (
-    <header className="flex justify-between items-center p-5 my-1 font-raleway">
+    <header className="flex justify-between items-center p-5 my-1 font-raleway md:px-14 md:my-8 ">
       <div>
         <svg
-          className="w-[90px]"
+          className="w-[90px] md:w-[160px]"
           width="200"
           viewBox="0 0 176 52"
           xmlns="http://www.w3.org/2000/svg"
@@ -13,7 +13,7 @@ function Header() {
           </g>
         </svg>
       </div>
-      <div className="flex gap-4 text-white text-sm">
+      <div className="flex gap-4 text-white text-sm md:text-lg md:gap-18">
         <a className="flex items-center" href="#">
           Features
         </a>
